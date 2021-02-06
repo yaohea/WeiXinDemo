@@ -1,1 +1,5 @@
-<text class="title">hh</text>
+<text class="title">{{hh}}</text>
+<button size="mini" open-type="getUserInfo" bindgetuserinfo="handle">获取用户数据</button>
+<open-data type="userNickName"></open-data>
+<view>{{myName}}</view>
+<view wx:for="{{list}}">{{item.name}}</view>
