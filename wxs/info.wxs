@@ -1,0 +1,10 @@
+var message = '姚哥来啦'
+
+function count(num1,num2) {
+  return num1 + num2
+}
+
+module.exports = {
+  message: message,
+  count: count
+}

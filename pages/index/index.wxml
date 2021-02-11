@@ -1,1 +1,4 @@
-<text class="title">hh</text>
+<button bind:tap="handle">dianji</button>
+<view>
+  <nav title="{{title}}" classname="text-bottom" bind:emit="handle"></nav>
+</view>

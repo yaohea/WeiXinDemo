@@ -1,0 +1,6 @@
+<view class="container">
+  <block wx:for="{{title}}" wx:key="{{item.id}}">
+    <view class="text {{active == item.id ?'classname': ''}}" bind:tap="handle" data-data="{{item}}">{{item.name}}
+    </view>
+  </block>
+</view>

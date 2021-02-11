@@ -1,0 +1,2 @@
+<text class="title" bindtap="handle">{{nowTime}}</text>
+<open-data type="userNickName"></open-data>
