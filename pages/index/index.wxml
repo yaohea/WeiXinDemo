@@ -1,1 +1,2 @@
-<text class="title">hh</text>
+<block wx:for="{{list.hobby}}" wx:key="index">{{item}}</block>
+<button bind:tap="handle">添加水果</button>
