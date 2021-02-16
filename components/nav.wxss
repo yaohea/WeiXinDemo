@@ -1,0 +1,11 @@
+/* components/nav.wxss */
+
+.container {
+  display: flex;
+  margin-top: 10px;
+}
+
+.text {
+  flex: 1;
+  text-align: center;
+}
