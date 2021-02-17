@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-<text class="title">知识点2来咯</text>
-=======
 <button bind:tap="handle">dianji</button>
 <view class="container">
   <block wx:for="{{title}}" wx:key="index">
@@ -9,4 +6,3 @@
   </block>
 </view>
 <view wx:for="{{title[activeData].list}}" wx:key="index">{{item}}</view>
->>>>>>> item
