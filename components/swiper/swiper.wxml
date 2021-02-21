@@ -1,7 +1,0 @@
-<swiper circular autoplay interval="{{2000}}" duration="200">
-<block wx:for="{{list}}" wx:key="_id">
-<swiper-item>
-  <image style="width:100%;" src="{{baseURL + item.img}}" mode="widthFix"></image>
-</swiper-item>
-</block>
-</swiper>

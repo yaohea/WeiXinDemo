@@ -1,0 +1,26 @@
+<!--pages/index/child/nav/nav.wxml-->
+<view>
+  <view class="nav">
+    <block wx:for="{{model}}" wx:key="age">
+      <view class="nav-list {{item.id == active ? 'active' : ''}}" bindtap="change" data-item="{{item}}">
+        <text>{{item.name}}</text>
+      </view>
+    </block>
+  </view>
+  <!-- <view wx:for="{{model[active].list}}" wx:key="index">{{item.name}}</view> -->
+  <view class="goods-container">
+    <!-- 盒子 -->
+    <view class="goods-box">
+      <!-- 循环内容 -->
+      <view class="goods-content" wx:for="{{goods}}" wx:key="index">
+        <!-- 图片 -->
+        <image style="width:100%;" src="{{baseURL + item.img}}" mode="widthFix"></image>
+        <!-- 标题 -->
+        <view class="goods-title">{{item.title}}</view>
+        <!-- 价格 -->
+        <view class="goods-footer"><text class="red">￥{{item.price}}</text><text class="goods-footer-right">看相似</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

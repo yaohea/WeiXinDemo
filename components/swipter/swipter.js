@@ -1,16 +1,11 @@
-// components/siwper/siwper.js
+// components/swipter/swipter.js
 Component({
   /**
    * 组件的属性列表
    */
   properties: {
-    list: {
-      type: Array,
-      value: []
-    },
-    baseURL: {
-      type: String
-    }
+    list: Array,
+    baseURL: String
   },
 
   /**

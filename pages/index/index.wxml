@@ -1,8 +1,3 @@
-<button bind:tap="handle">dianji</button>
-<view class="container">
-  <block wx:for="{{title}}" wx:key="index">
-    <view class="text {{active == item.id ?'text-bottom': ''}}" bind:tap="handle" data-data="{{item}}">{{item.name}}
-    </view>
-  </block>
-</view>
-<view wx:for="{{title[activeData].list}}" wx:key="index">{{item}}</view>
+<swipter list="{{list}}"  baseURL="{{baseURL}}"></swipter>
+
+<nav model="{{model}}" goods="{{goods}}" baseURL="{{baseURL}}"></nav>

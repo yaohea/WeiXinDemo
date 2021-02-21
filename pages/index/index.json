@@ -1,5 +1,6 @@
 {
   "usingComponents": {
-    "nav": "/components/nav"
+    "nav": "/pages/index/child/nav/nav",
+    "swipter": "/components/swipter/swipter"
   }
 }

@@ -1,0 +1,4 @@
+/* components/swipter/swipter.wxss */
+swiper {
+  height: 250rpx;
+}
